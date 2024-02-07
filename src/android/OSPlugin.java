@@ -28,7 +28,8 @@ public class OSPlugin extends CordovaPlugin {
     private void showToast(final String message, final int duration){
         cordova.getActivity().runOnUiThread(new Runnable(){
             public void run(){
-                Toast.makeText(cordova.getActivity(), message, duration.show();
+                Toast.makeText(cordova.getActivity(), message, duration.show());
+                
             }
         });
     }
